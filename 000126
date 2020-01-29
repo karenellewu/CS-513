@@ -1,0 +1,1268 @@
+x = (0,4,50);
+ x = (0,4,50);
+       
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses.
+Otherwise, check for mismatched delimiters.
+} 
+x = linspace (0,4,50);
+plot(x,exp(-x));
+plot(x,exp(-x))
+x = linspace(0,4,50);
+plot(x,exp(-x))
+plot(x,y)
+{Undefined function or variable 'y'.
+} 
+z = linespace(0,4,50);
+{Undefined function or variable 'linespace'.
+} 
+z = linspace(0,4,50);
+plot(z,exp(-z))
+xlabel('n')
+ylabel('probablity')
+title('I AM A TITLE')
+print -dps myfig.ps
+print -append -dps myfig.ps 
+zeros(5,3)
+
+ans =
+
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+     0     0     0
+
+ones(3,2)
+
+ans =
+
+     1     1
+     1     1
+     1     1
+
+twos(3,2)
+{Undefined function or variable 'twos'.
+} 
+whos(3,2
+ whos(3,2
+         
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses.
+Otherwise, check for mismatched delimiters.
+} 
+whos(3,2)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('whos')" style="font-weight:bold">whos</a>
+Must be a string scalar or character vector.
+} 
+eyes(3,2)
+{Undefined function or variable 'eyes'.
+} 
+eye(3,2)
+
+ans =
+
+     1     0
+     0     1
+     0     0
+
+ones(3)
+
+ans =
+
+     1     1     1
+     1     1     1
+     1     1     1
+
+A = [1,2;3,4];
+B = [0,1;1,1];
+A+B
+
+ans =
+
+     1     3
+     4     5
+
+A
+
+A =
+
+     1     2
+     3     4
+
+B
+
+B =
+
+     0     1
+     1     1
+
+A-B
+
+ans =
+
+     1     1
+     2     3
+
+A*B
+
+ans =
+
+     2     3
+     4     7
+
+A = ones(3)
+
+A =
+
+     1     1     1
+     1     1     1
+     1     1     1
+
+b = [1;2;3]
+
+b =
+
+     1
+     2
+     3
+
+A\b
+[Warning: Matrix is singular to working precision.] 
+[] 
+
+ans =
+
+   NaN
+   NaN
+   Inf
+
+A\b
+[Warning: Matrix is singular to working precision.] 
+[] 
+
+ans =
+
+   NaN
+   NaN
+   Inf
+
+c =[1,2,3]
+
+c =
+
+     1     2     3
+
+A\c
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mldivide')" style="font-weight:bold"> \ </a>
+Matrix dimensions must agree.
+} 
+size(c)
+
+ans =
+
+     1     3
+
+size(b)
+
+ans =
+
+     3     1
+
+c = c`
+ c = c`
+      
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of
+non-ASCII characters.
+} 
+c =`c
+ c =`c
+    
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of
+non-ASCII characters.
+} 
+c = 'c
+ c = 'c
+     
+{Error: Character vector is not terminated properly.
+} 
+c = c'
+
+c =
+
+     1
+     2
+     3
+
+b(:)
+
+ans =
+
+     1
+     2
+     3
+
+b = b'
+
+b =
+
+     1     2     3
+
+b(:)
+
+ans =
+
+     1
+     2
+     3
+
+function sum = myfirst(v,w)
+ function sum = myfirst(v,w)
+ 
+{Error: Function definition not supported in this context. Create functions in code file.
+} 
+java.lang.NullPointerException
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:57)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(UnsafeObjectFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at sun.lwawt.macosx.CAccessibility.getAccessibleRoleFor(CAccessibility.java:227)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:242)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:239)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:57)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(UnsafeObjectFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at sun.lwawt.macosx.CAccessibility.getAccessibleRoleFor(CAccessibility.java:227)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:242)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:239)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDisp
+
+atchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+myfirst(1,2)
+
+ans =
+
+     3
+
+myfirst([1,2],[3,4]);
+{Undefined function or variable 'm'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('myfirst', '/Users/karenellewu/Documents/MATLAB/myfirst.m', 4)" style="font-weight:bold">myfirst</a> (<a href="matlab: opentoline('/Users/karenellewu/Documents/MATLAB/myfirst.m',4,0)">line 4</a>)
+sum = v+w;m
+} 
+myfirst([1,2],[3,4]);
+myfirst([1,2],[3,4])
+
+ans =
+
+     4     6
+
+help myfirst
+ UNTITLED2 sum the two inputs
+    Detailed explanation goes here
+
+java.lang.NullPointerException
+	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(UnsafeFieldAccessorImpl.java:57)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(UnsafeObjectFieldAccessorImpl.java:36)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at sun.lwawt.macosx.CAccessibility.getAccessibleRoleFor(CAccessibility.java:227)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:242)
+	at sun.lwawt.macosx.CAccessibility$12.call(CAccessibility.java:239)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+java.lang.NullPointerException
+	at javax.swing.JList$AccessibleJList$AccessibleJListChild.getAccessibleValue(JList.java:3398)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:551)
+	at sun.lwawt.macosx.CAccessibility$32.call(CAccessibility.java:543)
+	at sun.lwawt.macosx.LWCToolkit$CallableWrapper.run(LWCToolkit.java:597)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+firstscript
+x = linspace (0,4,50);
+help
+HELP topics:
+
+<a href="matlab:help Documents/MATLAB">Documents/MATLAB</a>               - (No table of contents file)
+<a href="matlab:help matlab/timefun">matlab/timefun</a>                 - Time and dates.
+<a href="matlab:help matlab/sparfun">matlab/sparfun</a>                 - Sparse matrices.
+<a href="matlab:help matlab/specfun">matlab/specfun</a>                 - Specialized math functions.
+<a href="matlab:help matlab/randfun">matlab/randfun</a>                 - Random matrices and random streams.
+<a href="matlab:help matlab/lang">matlab/lang</a>                    - Programming language constructs.
+<a href="matlab:help matlab/datatypes">matlab/datatypes</a>               - Data types and structures.
+<a href="matlab:help matlab/validators">matlab/validators</a>              - (No table of contents file)
+<a href="matlab:help matlab/funfun">matlab/funfun</a>                  - Function functions and ODE solvers.
+<a href="matlab:help matlab/elmat">matlab/elmat</a>                   - Elementary matrices and matrix manipulation.
+<a href="matlab:help matlab/iofun">matlab/iofun</a>                   - File input and output.
+<a href="matlab:help matlab/general">matlab/general</a>                 - General purpose commands.
+<a href="matlab:help matlab/polyfun">matlab/polyfun</a>                 - Interpolation and polynomials.
+<a href="matlab:help matlab/matfun">matlab/matfun</a>                  - Matrix functions    - numerical linear algebra.
+<a href="matlab:help matlab/strfun">matlab/strfun</a>                  - Character arrays and strings.
+<a href="matlab:help matlab/ops">matlab/ops</a>                     - Operators and special characters.
+<a href="matlab:help matlab/elfun">matlab/elfun</a>                   - Elementary math functions.
+<a href="matlab:help matlab/datafun">matlab/datafun</a>                 - Data analysis and Fourier transforms.
+<a href="matlab:help matlab/images">matlab/images</a>                  - (No table of contents file)
+<a href="matlab:help toolbox/local">toolbox/local</a>                  - General preferences and configuration information.
+<a href="matlab:help matlab/codetools">matlab/codetools</a>               - Commands for creating and debugging code
+<a href="matlab:help unittest/core">unittest/core</a>                  - (No table of contents file)
+<a href="matlab:help matlab/graphfun">matlab/graphfun</a>                - (No table of contents file)
+<a href="matlab:help matlab/datamanager">matlab/datamanager</a>             - (No table of contents file)
+<a href="matlab:help matlabhdlcoder">matlabhdlcoder</a>                 - (No table of contents file)
+<a href="matlab:help matlab/guide">matlab/guide</a>                   - Graphical user interface design environment
+<a href="matlab:help graphics/maps">graphics/maps</a>                  - (No table of contents file)
+<a href="matlab:help codeanalysis/analysis">codeanalysis/analysis</a>          - (No table of contents file)
+<a href="matlab:help matlab/winfun">matlab/winfun</a>                  - Windows Operating System Interface Files (COM/DDE)
+<a href="matlab:help winfun/NET">winfun/NET</a>                     - Using .NET from within MATLAB
+<a href="matlab:help hardware/stubs">hardware/stubs</a>                 - (No table of contents file)
+<a href="matlab:help matlab/helptools">matlab/helptools</a>               - Help commands.
+<a href="matlab:help matlab/mapreduceio">matlab/mapreduceio</a>             - (No table of contents file)
+<a href="matlab:help matlab/bigdata">matlab/bigdata</a>                 - (No table of contents file)
+<a href="matlab:help matlab/datastoreio">matlab/datastoreio</a>             - (No table of contents file)
+<a href="matlab:help matlab/demos">matlab/demos</a>                   - Examples.
+<a href="matlab:help performance/core">performance/core</a>               - (No table of contents file)
+<a href="matlab:help matlab/graph2d">matlab/graph2d</a>                 - Two dimensional graphs.
+<a href="matlab:help matlab/graph3d">matlab/graph3d</a>                 - Three dimensional graphs.
+<a href="matlab:help matlab/graphics">matlab/graphics</a>                - Handle Graphics.
+<a href="matlab:help graphics/obsolete">graphics/obsolete</a>              - (No table of contents file)
+<a href="matlab:help matlab/plottools">matlab/plottools</a>               - Graphical plot editing tools 
+<a href="matlab:help matlab/scribe">matlab/scribe</a>                  - Annotation and Plot Editing.
+<a href="matlab:help scribe/obsolete">scribe/obsolete</a>                - (No table of contents file)
+<a href="matlab:help matlab/specgraph">matlab/specgraph</a>               - Specialized graphs.
+<a href="matlab:help matlab/uitools">matlab/uitools</a>                 - Graphical user interface components and tools
+<a href="matlab:help uitools/obsolete">uitools/obsolete</a>               - (No table of contents file)
+<a href="matlab:help matlab/verctrl">matlab/verctrl</a>                 - (No table of contents file)
+<a href="matlab:help matlab/optimfun">matlab/optimfun</a>                - Optimization and root finding.
+<a href="matlab:help rtwdemos">rtwdemos</a>                       - Simulink Coder Demos
+<a href="matlab:help rtwdemos/rsimdemos">rtwdemos/rsimdemos</a>             - (No table of contents file)
+<a href="matlab:help coder/advisor">coder/advisor</a>                  - (No table of contents file)
+<a href="matlab:help widgets/m">widgets/m</a>                      - (No table of contents file)
+<a href="matlab:help rtw/accel">rtw/accel</a>                      - (No table of contents file)
+<a href="matlab:help coder_core">coder_core</a>                     - (No table of contents file)
+<a href="matlab:help automotive/powerwindow">automotive/powerwindow</a>         - (No table of contents file)
+<a href="matlab:help simdemos/automotive">simdemos/automotive</a>            - (No table of contents file)
+<a href="matlab:help simulink_export_methods">simulink_export_methods</a>        - (No table of contents file)
+<a href="matlab:help simulinktest">simulinktest</a>                   - Simulink Test
+<a href="matlab:help simdemos/simfeatures">simdemos/simfeatures</a>           - (No table of contents file)
+<a href="matlab:help simfeatures/modelreference">simfeatures/modelreference</a>     - (No table of contents file)
+<a href="matlab:help simfeatures/datadictionary">simfeatures/datadictionary</a>     - (No table of contents file)
+<a href="matlab:help simulink/frameedit">simulink/frameedit</a>             - (No table of contents file)
+<a href="matlab:help simulinktestdemos">simulinktestdemos</a>              - (No table of contents file)
+<a href="matlab:help asap2">asap2</a>                          - (No table of contents file)
+<a href="matlab:help asap2/user">asap2/user</a>                     - (No table of contents file)
+<a href="matlab:help can/blocks">can/blocks</a>                     - (No table of contents file)
+<a href="matlab:help common">common</a>                         - (No table of contents file)
+<a href="matlab:help coder">coder</a>                          - Simulink Coder
+<a href="matlab:help targets/pil">targets/pil</a>                    - (No table of contents file)
+<a href="matlab:help simdemos/aerospace">simdemos/aerospace</a>             - (No table of contents file)
+<a href="matlab:help simdemos/simgeneral">simdemos/simgeneral</a>            - (No table of contents file)
+<a href="matlab:help slde">slde</a>                           - (No table of contents file)
+<a href="matlab:help library/simulinkcoder">library/simulinkcoder</a>          - (No table of contents file)
+<a href="matlab:help blocks/obsolete">blocks/obsolete</a>                - (No table of contents file)
+<a href="matlab:help simulink/simdemos">simulink/simdemos</a>              - Simulink examples
+<a href="matlab:help config/m">config/m</a>                       - (No table of contents file)
+<a href="matlab:help examples/verification">examples/verification</a>          - (No table of contents file)
+<a href="matlab:help simulink/modeladvisor">simulink/modeladvisor</a>          - (No table of contents file)
+<a href="matlab:help modeladvisor/fixpt">modeladvisor/fixpt</a>             - (No table of contents file)
+<a href="matlab:help modeladvisor/misra">modeladvisor/misra</a>             - (No table of contents file)
+<a href="matlab:help modeladvisor/security">modeladvisor/security</a>          - (No table of contents file)
+<a href="matlab:help core/m">core/m</a>                         - (No table of contents file)
+<a href="matlab:help simulink/components">simulink/components</a>            - Simulink components.
+<a href="matlab:help simulink/dee">simulink/dee</a>                   - Differential Equation Editor
+<a href="matlab:help simulink/blocks">simulink/blocks</a>                - Simulink block library.
+<a href="matlab:help simulink">simulink</a>                       - 
+<a href="matlab:help simulink/MPlayIO">simulink/MPlayIO</a>               - (No table of contents file)
+<a href="matlab:help simulink/units">simulink/units</a>                 - (No table of contents file)
+<a href="matlab:help simulink/model_transformer">simulink/model_transformer</a>     - (No table of contents file)
+<a href="matlab:help simulink/clone_detection">simulink/clone_detection</a>       - (No table of contents file)
+<a href="matlab:help simulink/sfuncheck">simulink/sfuncheck</a>             - (No table of contents file)
+<a href="matlab:help slde/examples">slde/examples</a>                  - SimEvents Demos.
+<a href="matlab:help simulink/hmi">simulink/hmi</a>                   - (No table of contents file)
+<a href="matlab:help automotive/fuelsys">automotive/fuelsys</a>             - (No table of contents file)
+<a href="matlab:help testsequence">testsequence</a>                   - (No table of contents file)
+<a href="matlab:help stateflow">stateflow</a>                      - 
+<a href="matlab:help stateflow/sfdemos">stateflow/sfdemos</a>              - Stateflow examples and samples.
+<a href="matlab:help commdemos">commdemos</a>                      - Communications System Toolbox Demos.
+<a href="matlab:help vdynblks/vdyndemos">vdynblks/vdyndemos</a>             - (No table of contents file)
+<a href="matlab:help lte">lte</a>                            - System Toolbox
+<a href="matlab:help iodata/iomap">iodata/iomap</a>                   - (No table of contents file)
+<a href="matlab:help comm/examples">comm/examples</a>                  - (No table of contents file)
+<a href="matlab:help shared/siglib">shared/siglib</a>                  - (No table of contents file)
+<a href="matlab:help matlab/networklib">matlab/networklib</a>              - Network support.
+<a href="matlab:help slcheck/do178b">slcheck/do178b</a>                 - (No table of contents file)
+<a href="matlab:help reg/m">reg/m</a>                          - (No table of contents file)
+<a href="matlab:help audiodemos">audiodemos</a>                     - (No table of contents file)
+<a href="matlab:help toolbox/distcomp">toolbox/distcomp</a>               - Parallel Computing Toolbox
+<a href="matlab:help distcomp">distcomp</a>                       - (No table of contents file)
+<a href="matlab:help distcomp/user">distcomp/user</a>                  - (No table of contents file)
+<a href="matlab:help distcomp/mpi">distcomp/mpi</a>                   - Parallel Computing Functions for Message Passing
+<a href="matlab:help distcomp/parallel">distcomp/parallel</a>              - Parallel Algorithms
+<a href="matlab:help parallel/util">parallel/util</a>                  - (No table of contents file)
+<a href="matlab:help distcomp/lang">distcomp/lang</a>                  - Parallel computing programming language constructs.
+<a href="matlab:help distcomp/cluster">distcomp/cluster</a>               - Functions and Classes for Parallel Computing with Clusters
+<a href="matlab:help distcomp/gpu">distcomp/gpu</a>                   - There are several options available for using your computer's graphics 
+<a href="matlab:help coder/coverage">coder/coverage</a>                 - (No table of contents file)
+<a href="matlab:help curvefit">curvefit</a>                       - Curve Fitting Toolbox
+<a href="matlab:help curvefit/splines">curvefit/splines</a>               - Curve Fitting Toolbox -- Spline Functions
+<a href="matlab:help curvefit/sftoolgui">curvefit/sftoolgui</a>             - (No table of contents file)
+<a href="matlab:help sta_editor_block">sta_editor_block</a>               - (No table of contents file)
+<a href="matlab:help foundation/util">foundation/util</a>                - (No table of contents file)
+<a href="matlab:help foundation/errorhandler">foundation/errorhandler</a>        - (No table of contents file)
+<a href="matlab:help foundation/xmakefile">foundation/xmakefile</a>           - (No table of contents file)
+<a href="matlab:help foundation/hookpoints">foundation/hookpoints</a>          - (No table of contents file)
+<a href="matlab:help robotsimulink/robotslcore">robotsimulink/robotslcore</a>      - (No table of contents file)
+<a href="matlab:help toolbox/slcoverage">toolbox/slcoverage</a>             - Simulink Coverage
+<a href="matlab:help fuzzy">fuzzy</a>                          - Logic Toolbox
+<a href="matlab:help fuzzyutil">fuzzyutil</a>                      - (No table of contents file)
+<a href="matlab:help stats/distributed">stats/distributed</a>              - (No table of contents file)
+<a href="matlab:help shared/maputils">shared/maputils</a>                - Map Utility Functions
+<a href="matlab:help controllib/general">controllib/general</a>             - Control System Toolbox -- General Utilities.
+<a href="matlab:help optim/problemdef">optim/problemdef</a>               - (No table of contents file)
+<a href="matlab:help fininst">fininst</a>                        - Financial Instruments Toolbox
+<a href="matlab:help simrfV2demos">simrfV2demos</a>                   - RF Blockset 7.0 Demos
+<a href="matlab:help sdldemos">sdldemos</a>                       - (No table of contents file)
+<a href="matlab:help tracking/fusionlib">tracking/fusionlib</a>             - (No table of contents file)
+<a href="matlab:help library/m">library/m</a>                      - (No table of contents file)
+<a href="matlab:help sta/editor">sta/editor</a>                     - (No table of contents file)
+<a href="matlab:help aeroblks/aerodemos">aeroblks/aerodemos</a>             - Aerospace Blockset model examples.
+<a href="matlab:help foundation/utils">foundation/utils</a>               - (No table of contents file)
+<a href="matlab:help utils/resource_config">utils/resource_config</a>          - (No table of contents file)
+<a href="matlab:help blks/mex">blks/mex</a>                       - (No table of contents file)
+<a href="matlab:help blks/masks">blks/masks</a>                     - (No table of contents file)
+<a href="matlab:help ti/mdlinfo">ti/mdlinfo</a>                     - (No table of contents file)
+<a href="matlab:help tils">tils</a>                           - (No table of contents file)
+<a href="matlab:help blks/masks">blks/masks</a>                     - (No table of contents file)
+<a href="matlab:help ARM/tfl">ARM/tfl</a>                        - (No table of contents file)
+<a href="matlab:help etargets">etargets</a>                       - (No table of contents file)
+<a href="matlab:help etargets/demoutils">etargets/demoutils</a>             - (No table of contents file)
+<a href="matlab:help ident/iddemos">ident/iddemos</a>                  - (No table of contents file)
+<a href="matlab:help iddemos/examples">iddemos/examples</a>               - (No table of contents file)
+<a href="matlab:help econ">econ</a>                           - ometrics Toolbox
+<a href="matlab:help econdata">econdata</a>                       - Econometrics Toolbox: Data, Demos, and Examples
+<a href="matlab:help sdl">sdl</a>                            - Simscape Driveline 
+<a href="matlab:help sdl/classic">sdl/classic</a>                    - (No table of contents file)
+<a href="matlab:help robotics/robotsimulink">robotics/robotsimulink</a>         - (No table of contents file)
+<a href="matlab:help robotsimulink/robotslros">robotsimulink/robotslros</a>       - (No table of contents file)
+<a href="matlab:help robotslros/toolchain">robotslros/toolchain</a>           - (No table of contents file)
+<a href="matlab:help hdlcoder/hdlcommon">hdlcoder/hdlcommon</a>             - (No table of contents file)
+<a href="matlab:help hdlcommon/modelcheckeradvisor">hdlcommon/modelcheckeradvisor</a>  - (No table of contents file)
+<a href="matlab:help ltehdlexamples">ltehdlexamples</a>                 - LTE HDL Toolbox Examples.
+<a href="matlab:help slcoverage/slcovdemos">slcoverage/slcovdemos</a>          - (No table of contents file)
+<a href="matlab:help shared/sl_coverage_configset">shared/sl_coverage_configset</a>   - (No table of contents file)
+<a href="matlab:help dspblks">dspblks</a>                        - (No table of contents file)
+<a href="matlab:help pm_sli">pm_sli</a>                         - (No table of contents file)
+<a href="matlab:help antenna/atexamples">antenna/atexamples</a>             - Antenna Toolbox Demos
+<a href="matlab:help wlan">wlan</a>                           - System Toolbox
+<a href="matlab:help hdlcoder">hdlcoder</a>                       - HDL Coder 
+<a href="matlab:help hdlcoder/hdlwa">hdlcoder/hdlwa</a>                 - (No table of contents file)
+<a href="matlab:help hdlsscworkflowadvisor">hdlsscworkflowadvisor</a>          - (No table of contents file)
+<a href="matlab:help symbolic">symbolic</a>                       - Math Toolbox
+<a href="matlab:help wavelet">wavelet</a>                        - Toolbox
+<a href="matlab:help wavelet/wmultisig1d">wavelet/wmultisig1d</a>            - (No table of contents file)
+<a href="matlab:help wavelet/compression">wavelet/compression</a>            - (No table of contents file)
+<a href="matlab:help sta/derivedSignals">sta/derivedSignals</a>             - (No table of contents file)
+<a href="matlab:help slcontrol/slctrldemos">slcontrol/slctrldemos</a>          - (No table of contents file)
+<a href="matlab:help shared/imageslib">shared/imageslib</a>               - Image Processing Toolbox Library
+<a href="matlab:help matlab/webcam">matlab/webcam</a>                  - Webcam support.
+<a href="matlab:help antenna/rfprop">antenna/rfprop</a>                 - (No table of contents file)
+<a href="matlab:help utils/m">utils/m</a>                        - (No table of contents file)
+<a href="matlab:help simulink/slhistory">simulink/slhistory</a>             - (No table of contents file)
+<a href="matlab:help rfdemos">rfdemos</a>                        - RF Toolbox Demos
+<a href="matlab:help compiler/java">compiler/java</a>                  - (No table of contents file)
+<a href="matlab:help sldv">sldv</a>                           - Simulink Design Verifier 
+<a href="matlab:help pscore">pscore</a>                         - (No table of contents file)
+<a href="matlab:help toolbox/compiler_sdk">toolbox/compiler_sdk</a>           - MATLAB Compiler SDK
+<a href="matlab:help vision">vision</a>                         - Computer Vision System Toolbox
+<a href="matlab:help visiondata">visiondata</a>                     - Computer Vision System Toolbox --- sample data
+<a href="matlab:help visionutilities">visionutilities</a>                - (No table of contents file)
+<a href="matlab:help visionutilities/visioninit">visionutilities/visioninit</a>     - (No table of contents file)
+<a href="matlab:help visionutilities/visionmex">visionutilities/visionmex</a>      - (No table of contents file)
+<a href="matlab:help database/dbdemos">database/dbdemos</a>               - Database Toolbox Demonstration Functions.
+<a href="matlab:help autoblksshared">autoblksshared</a>                 - (No table of contents file)
+<a href="matlab:help shared/measure">shared/measure</a>                 - (No table of contents file)
+<a href="matlab:help signalwavelet">signalwavelet</a>                  - (No table of contents file)
+<a href="matlab:help shared/aeroblks">shared/aeroblks</a>                - (No table of contents file)
+<a href="matlab:help polyspace/pscodeprover">polyspace/pscodeprover</a>         - Polyspace Code Prover
+<a href="matlab:help coder/connectivity">coder/connectivity</a>             - (No table of contents file)
+<a href="matlab:help dsp/filterdesign">dsp/filterdesign</a>               - (No table of contents file)
+<a href="matlab:help autoblks">autoblks</a>                       - Powertrain Blockset
+<a href="matlab:help autoblksutilities">autoblksutilities</a>              - (No table of contents file)
+<a href="matlab:help webservices/restful">webservices/restful</a>            - (No table of contents file)
+<a href="matlab:help interfaces/webservices">interfaces/webservices</a>         - MATLAB Web Services Interfaces.
+<a href="matlab:help fininstdemos">fininstdemos</a>                   - Financial Instruments Toolbox: Demos
+<a href="matlab:help elec">elec</a>                           - Simscape Electronics 
+<a href="matlab:help slreportgen/reportexplorer">slreportgen/reportexplorer</a>     - (No table of contents file)
+<a href="matlab:help gui/m">gui/m</a>                          - (No table of contents file)
+<a href="matlab:help rptgendemos">rptgendemos</a>                    - (No table of contents file)
+<a href="matlab:help ne_sli">ne_sli</a>                         - (No table of contents file)
+<a href="matlab:help antenna">antenna</a>                        - Toolbox
+<a href="matlab:help antennautilities">antennautilities</a>               - (No table of contents file)
+<a href="matlab:help control/ctrldemos">control/ctrldemos</a>              - Control System Toolbox -- Examples.
+<a href="matlab:help instrumentdemos">instrumentdemos</a>                - (No table of contents file)
+<a href="matlab:help dspdemos">dspdemos</a>                       - DSP System Toolbox demonstrations and examples.
+<a href="matlab:help eda/board">eda/board</a>                      - (No table of contents file)
+<a href="matlab:help database">database</a>                       - Toolbox
+<a href="matlab:help map">map</a>                            - ping Toolbox
+<a href="matlab:help mapgeodesy">mapgeodesy</a>                     - (No table of contents file)
+<a href="matlab:help mapdisp">mapdisp</a>                        - (No table of contents file)
+<a href="matlab:help mapformats">mapformats</a>                     - (No table of contents file)
+<a href="matlab:help mapproj">mapproj</a>                        - (No table of contents file)
+<a href="matlab:help mapobsolete">mapobsolete</a>                    - Mapping Toolbox functions that are not recommended or to be removed
+<a href="matlab:help mapdata">mapdata</a>                        - Mapping Toolbox Sample Data Sets
+<a href="matlab:help sldv/slicer">sldv/slicer</a>                    - (No table of contents file)
+<a href="matlab:help slicer/gui">slicer/gui</a>                     - (No table of contents file)
+<a href="matlab:help sl3ddemos">sl3ddemos</a>                      - Simulink 3D Animation examples.
+<a href="matlab:help optimdemos">optimdemos</a>                     - Demonstrations.
+<a href="matlab:help signal">signal</a>                         - Processing Toolbox 
+<a href="matlab:help signal/sigtools">signal/sigtools</a>                - (No table of contents file)
+<a href="matlab:help signal/sptoolgui">signal/sptoolgui</a>               - (No table of contents file)
+<a href="matlab:help dsphdl">dsphdl</a>                         - (No table of contents file)
+<a href="matlab:help dsphdl/dsputilities">dsphdl/dsputilities</a>            - (No table of contents file)
+<a href="matlab:help factsdemo">factsdemo</a>                      - (No table of contents file)
+<a href="matlab:help control">control</a>                        - System Toolbox
+<a href="matlab:help control/ctrlmodels">control/ctrlmodels</a>             - Control System Toolbox -- Linear models.
+<a href="matlab:help control/ctrlanalysis">control/ctrlanalysis</a>           - Control System Toolbox -- Linear analysis.
+<a href="matlab:help control/ctrldesign">control/ctrldesign</a>             - Control System Toolbox -- Compensator design and tuning.
+<a href="matlab:help control/ctrlplots">control/ctrlplots</a>              - Control System Toolbox -- Plot creation and manipulation.
+<a href="matlab:help control/ctrlguis">control/ctrlguis</a>               - Control System Toolbox -- Applications.
+<a href="matlab:help control/ctrlobsolete">control/ctrlobsolete</a>           - Control System Toolbox -- obsolete commands.
+<a href="matlab:help control/ctrlutil">control/ctrlutil</a>               - Control System Toolbox -- Utilities and MEX files.
+<a href="matlab:help simscape/m">simscape/m</a>                     - (No table of contents file)
+<a href="matlab:help hdlfilter">hdlfilter</a>                      - Filter Design HDL Coder 
+<a href="matlab:help intelhost/tfl">intelhost/tfl</a>                  - (No table of contents file)
+<a href="matlab:help advisor/m">advisor/m</a>                      - (No table of contents file)
+<a href="matlab:help eml">eml</a>                            - (No table of contents file)
+<a href="matlab:help simbiodemos">simbiodemos</a>                    - SimBiology Demos
+<a href="matlab:help wavelet/wavedemo">wavelet/wavedemo</a>               - (No table of contents file)
+<a href="matlab:help polyspace/psbugfinder">polyspace/psbugfinder</a>          - Polyspace Bug Finder
+<a href="matlab:help shared/optimlib">shared/optimlib</a>                - Optimization Toolbox Library
+<a href="matlab:help shared/rptgen">shared/rptgen</a>                  - (No table of contents file)
+<a href="matlab:help compiler_sdk/java">compiler_sdk/java</a>              - (No table of contents file)
+<a href="matlab:help mech">mech</a>                           - (No table of contents file)
+<a href="matlab:help mech/importer">mech/importer</a>                  - (No table of contents file)
+<a href="matlab:help fixedandfloat/fxpdemos">fixedandfloat/fxpdemos</a>         - Fixed-Point Designer Demos
+<a href="matlab:help globaloptim">globaloptim</a>                    - Global Optimization Toolbox
+<a href="matlab:help bioinfo/biodemos">bioinfo/biodemos</a>               - Bioinformatics Toolbox -- Tutorials, demos and examples.
+<a href="matlab:help vdynblks">vdynblks</a>                       - Vehicle Dynamics Blockset
+<a href="matlab:help vdynblksutilities">vdynblksutilities</a>              - (No table of contents file)
+<a href="matlab:help shdemos">shdemos</a>                        - (No table of contents file)
+<a href="matlab:help signalanalyzer">signalanalyzer</a>                 - (No table of contents file)
+<a href="matlab:help rf">rf</a>                             - Toolbox
+<a href="matlab:help rftool">rftool</a>                         - RF Tool Graphical User Interface
+<a href="matlab:help shared/reqmgt">shared/reqmgt</a>                  - Requirements Management Interface.
+<a href="matlab:help reqmgt/mmutils">reqmgt/mmutils</a>                 - Subdirectory "shared/reqmgt/mmutils" - part of RMI data model infrastructure
+<a href="matlab:help hdlshared_gui">hdlshared_gui</a>                  - (No table of contents file)
+<a href="matlab:help sl3d">sl3d</a>                           - Simulink 3D Animation
+<a href="matlab:help ecoderdemos">ecoderdemos</a>                    - (No table of contents file)
+<a href="matlab:help slreportgen/webview">slreportgen/webview</a>            - (No table of contents file)
+<a href="matlab:help utils/m">utils/m</a>                        - (No table of contents file)
+<a href="matlab:help shared/m3i">shared/m3i</a>                     - (No table of contents file)
+<a href="matlab:help rptgenextdemos/flutter_suppression">rptgenextdemos/flutter_suppression</a> - (No table of contents file)
+<a href="matlab:help rptgenextdemos/sdd">rptgenextdemos/sdd</a>             - (No table of contents file)
+<a href="matlab:help controllib/engine">controllib/engine</a>              - Control Library - Engine.
+<a href="matlab:help engine/numerics">engine/numerics</a>                - (No table of contents file)
+<a href="matlab:help engine/options">engine/options</a>                 - (No table of contents file)
+<a href="matlab:help engine/blocks">engine/blocks</a>                  - (No table of contents file)
+<a href="matlab:help shared/configset">shared/configset</a>               - (No table of contents file)
+<a href="matlab:help target">target</a>                         - (No table of contents file)
+<a href="matlab:help shared/commhdl">shared/commhdl</a>                 - (No table of contents file)
+<a href="matlab:help shared/sldv">shared/sldv</a>                    - sldvisactive         - Check if Simulink Design Verifier software is analyzing model 
+<a href="matlab:help shared/dastudio">shared/dastudio</a>                - (No table of contents file)
+<a href="matlab:help slcheck/styleguide">slcheck/styleguide</a>             - (No table of contents file)
+<a href="matlab:help spc/src_ml">spc/src_ml</a>                     - (No table of contents file)
+<a href="matlab:help mli/m">mli/m</a>                          - (No table of contents file)
+<a href="matlab:help hdlcoder/filters">hdlcoder/filters</a>               - (No table of contents file)
+<a href="matlab:help shared/instrument">shared/instrument</a>              - (No table of contents file)
+<a href="matlab:help shared/pdelib">shared/pdelib</a>                  - PDE Toolbox Library
+<a href="matlab:help dig">dig</a>                            - (No table of contents file)
+<a href="matlab:help robotics/robotcore">robotics/robotcore</a>             - (No table of contents file)
+<a href="matlab:help fuzzy/fuzdemos">fuzzy/fuzdemos</a>                 - Fuzzy Logic Toolbox Demos.
+<a href="matlab:help simevents">simevents</a>                      - 
+<a href="matlab:help optim">optim</a>                          - ization Toolbox
+<a href="matlab:help matlab/configtools">matlab/configtools</a>             - (No table of contents file)
+<a href="matlab:help rfblksdemos">rfblksdemos</a>                    - (No table of contents file)
+<a href="matlab:help pdedemos">pdedemos</a>                       - Partial Differential Equation Toolbox Examples
+<a href="matlab:help slproject/examples">slproject/examples</a>             - (No table of contents file)
+<a href="matlab:help lteexamples">lteexamples</a>                    - LTE System Toolbox Examples.
+<a href="matlab:help matlab/apps">matlab/apps</a>                    - (No table of contents file)
+<a href="matlab:help comm">comm</a>                           - unications System Toolbox
+<a href="matlab:help commutilities/comminit">commutilities/comminit</a>         - (No table of contents file)
+<a href="matlab:help commutilities/commmex">commutilities/commmex</a>          - (No table of contents file)
+<a href="matlab:help commutilities">commutilities</a>                  - (No table of contents file)
+<a href="matlab:help commdeprecated">commdeprecated</a>                 - Archived MATLAB Files from Communications System Toolbox.
+<a href="matlab:help processor/tic2000">processor/tic2000</a>              - (No table of contents file)
+<a href="matlab:help tic2000/utils">tic2000/utils</a>                  - (No table of contents file)
+<a href="matlab:help shared/comparisons">shared/comparisons</a>             - (No table of contents file)
+<a href="matlab:help toolbox/slcheck">toolbox/slcheck</a>                - Simulink Check
+<a href="matlab:help eda/fil">eda/fil</a>                        - FPGA-in-the-Loop verifies FPGA designs in Simulink and MATLAB with an 
+<a href="matlab:help filmapi">filmapi</a>                        - (No table of contents file)
+<a href="matlab:help statsdemos">statsdemos</a>                     - (No table of contents file)
+<a href="matlab:help sldo/examples">sldo/examples</a>                  - (No table of contents file)
+<a href="matlab:help compiler/mltall">compiler/mltall</a>                - (No table of contents file)
+<a href="matlab:help robotics/robotmanip">robotics/robotmanip</a>            - (No table of contents file)
+<a href="matlab:help robotsimulink/robotslalgs">robotsimulink/robotslalgs</a>      - (No table of contents file)
+<a href="matlab:help AUTOSAR">AUTOSAR</a>                        - (No table of contents file)
+<a href="matlab:help trading">trading</a>                        - Toolbox
+<a href="matlab:help tradingdemos">tradingdemos</a>                   - (No table of contents file)
+<a href="matlab:help spcuilib/unifiedscopes">spcuilib/unifiedscopes</a>         - (No table of contents file)
+<a href="matlab:help advisor/m">advisor/m</a>                      - (No table of contents file)
+<a href="matlab:help codeinstrum">codeinstrum</a>                    - (No table of contents file)
+<a href="matlab:help appdesigner">appdesigner</a>                    - (No table of contents file)
+<a href="matlab:help coder/xrel">coder/xrel</a>                     - (No table of contents file)
+<a href="matlab:help rptgen">rptgen</a>                         - MATLAB Report Generator
+<a href="matlab:help targets/ecoder">targets/ecoder</a>                 - (No table of contents file)
+<a href="matlab:help mpt">mpt</a>                            - Module Packaging Feature
+<a href="matlab:help mpt/user_specific">mpt/user_specific</a>              - (No table of contents file)
+<a href="matlab:help coder">coder</a>                          - Embedded Coder
+<a href="matlab:help bioinfo">bioinfo</a>                        - rmatics Toolbox
+<a href="matlab:help bioinfo/biolearning">bioinfo/biolearning</a>            - Bioinformatics Toolbox -- Statistical Learning functions.
+<a href="matlab:help bioinfo/microarray">bioinfo/microarray</a>             - Bioinformatics Toolbox -- Microarray support functions.
+<a href="matlab:help bioinfo/mass_spec">bioinfo/mass_spec</a>              - Bioinformatics Toolbox -- Mass spectrometry data analysis functions.
+<a href="matlab:help bioinfo/proteins">bioinfo/proteins</a>               - Bioinformatics Toolbox -- Protein analysis tools.
+<a href="matlab:help bioinfo/biomatrices">bioinfo/biomatrices</a>            - Bioinformatics Toolbox -- Sequence similarity scoring matrices.
+<a href="matlab:help bioinfo/graphtheory">bioinfo/graphtheory</a>            - Bioinformatics Toolbox -- Graph Theory functions.
+<a href="matlab:help dsp/hdl">dsp/hdl</a>                        - (No table of contents file)
+<a href="matlab:help fixedpointtool">fixedpointtool</a>                 - (No table of contents file)
+<a href="matlab:help library/m">library/m</a>                      - (No table of contents file)
+<a href="matlab:help simbio">simbio</a>                         - logy
+<a href="matlab:help rotationslib">rotationslib</a>                   - Rotation Representations and Utilities 
+<a href="matlab:help dsp/dialog">dsp/dialog</a>                     - (No table of contents file)
+<a href="matlab:help shared/mldatx">shared/mldatx</a>                  - (No table of contents file)
+<a href="matlab:help geoweb">geoweb</a>                         - (No table of contents file)
+<a href="matlab:help commhdloptimized">commhdloptimized</a>               - (No table of contents file)
+<a href="matlab:help commhdloptimized/commutilities">commhdloptimized/commutilities</a> - (No table of contents file)
+<a href="matlab:help stats/bayesoptim">stats/bayesoptim</a>               - (No table of contents file)
+<a href="matlab:help stats/bigdata">stats/bigdata</a>                  - (No table of contents file)
+<a href="matlab:help stats/classreg">stats/classreg</a>                 - (No table of contents file)
+<a href="matlab:help stats/clustering">stats/clustering</a>               - (No table of contents file)
+<a href="matlab:help stats/featlearn">stats/featlearn</a>                - (No table of contents file)
+<a href="matlab:help stats">stats</a>                          - Statistics and Machine Learning Toolbox
+<a href="matlab:help ticcs/ccslinkblks">ticcs/ccslinkblks</a>              - (No table of contents file)
+<a href="matlab:help ccslinkblks/rtdxsimblks">ccslinkblks/rtdxsimblks</a>        - (No table of contents file)
+<a href="matlab:help ticcs/mdlinfo">ticcs/mdlinfo</a>                  - (No table of contents file)
+<a href="matlab:help ticcs/util">ticcs/util</a>                     - (No table of contents file)
+<a href="matlab:help ticcs/envChecker">ticcs/envChecker</a>               - (No table of contents file)
+<a href="matlab:help foundation/pjtgenerator">foundation/pjtgenerator</a>        - (No table of contents file)
+<a href="matlab:help pjtgenerator/tgtpref2">pjtgenerator/tgtpref2</a>          - (No table of contents file)
+<a href="matlab:help pjtgenerator/mdlinfo">pjtgenerator/mdlinfo</a>           - (No table of contents file)
+<a href="matlab:help pjtgenerator/blks">pjtgenerator/blks</a>              - (No table of contents file)
+<a href="matlab:help blks/masks">blks/masks</a>                     - (No table of contents file)
+<a href="matlab:help import/m">import/m</a>                       - (No table of contents file)
+<a href="matlab:help stats/gpu">stats/gpu</a>                      - (No table of contents file)
+<a href="matlab:help curvefitdemos">curvefitdemos</a>                  - Curve Fitting Toolbox -- Examples
+<a href="matlab:help interfaces/python">interfaces/python</a>              - (No table of contents file)
+<a href="matlab:help powersys">powersys</a>                       - (No table of contents file)
+<a href="matlab:help fluids">fluids</a>                         - Simscape Fluids 
+<a href="matlab:help nnet/cnn">nnet/cnn</a>                       - Neural Network Toolbox convolutional neural network (CNN) functions.
+<a href="matlab:help matlab/imagesci">matlab/imagesci</a>                - (No table of contents file)
+<a href="matlab:help wlanexamples">wlanexamples</a>                   - WLAN System Toolbox Examples
+<a href="matlab:help hdllib/sl_lib">hdllib/sl_lib</a>                  - (No table of contents file)
+<a href="matlab:help matlab/serial">matlab/serial</a>                  - (No table of contents file)
+<a href="matlab:help elecdemos">elecdemos</a>                      - (No table of contents file)
+<a href="matlab:help rtw">rtw</a>                            - (No table of contents file)
+<a href="matlab:help tools/registry">tools/registry</a>                 - (No table of contents file)
+<a href="matlab:help foundation/tfl">foundation/tfl</a>                 - (No table of contents file)
+<a href="matlab:help AUTOSAR4p0/IFX">AUTOSAR4p0/IFX</a>                 - (No table of contents file)
+<a href="matlab:help AUTOSAR4p0/IFL">AUTOSAR4p0/IFL</a>                 - (No table of contents file)
+<a href="matlab:help tfl/gui">tfl/gui</a>                        - (No table of contents file)
+<a href="matlab:help blks/masks">blks/masks</a>                     - (No table of contents file)
+<a href="matlab:help sli/m">sli/m</a>                          - (No table of contents file)
+<a href="matlab:help matlab/pathtool">matlab/pathtool</a>                - (No table of contents file)
+<a href="matlab:help uicomponents">uicomponents</a>                   - (No table of contents file)
+<a href="matlab:help uicomponents/graphics">uicomponents/graphics</a>          - (No table of contents file)
+<a href="matlab:help fixedpoint/fidemos">fixedpoint/fidemos</a>             - (No table of contents file)
+<a href="matlab:help rptgenextdemos/slxmlcomp">rptgenextdemos/slxmlcomp</a>       - (No table of contents file)
+<a href="matlab:help idelinkdemos">idelinkdemos</a>                   - (No table of contents file)
+<a href="matlab:help lte/umts">lte/umts</a>                       - LTE System Toolbox
+<a href="matlab:help shared/fmu_block">shared/fmu_block</a>               - (No table of contents file)
+<a href="matlab:help shared/io">shared/io</a>                      - (No table of contents file)
+<a href="matlab:help toolbox/compiler">toolbox/compiler</a>               - MATLAB Compiler
+<a href="matlab:help robotics/robotexamples">robotics/robotexamples</a>         - Robotics System Toolbox Examples.
+<a href="matlab:help robotcore/helpers">robotcore/helpers</a>              - (No table of contents file)
+<a href="matlab:help robotsimulink/helpers">robotsimulink/helpers</a>          - (No table of contents file)
+<a href="matlab:help robotsimulink/robotslmanip">robotsimulink/robotslmanip</a>     - (No table of contents file)
+<a href="matlab:help simevents/examples">simevents/examples</a>             - SimEvents Demos.
+<a href="matlab:help rfblks">rfblks</a>                         - RF Blockset
+<a href="matlab:help rfblksmasks">rfblksmasks</a>                    - (No table of contents file)
+<a href="matlab:help sldrt">sldrt</a>                          - Simulink Desktop Real-Time
+<a href="matlab:help robust">robust</a>                         - Control Toolbox
+<a href="matlab:help robust/rctlmi">robust/rctlmi</a>                  - Robust Control Toolbox - LMI Solvers.
+<a href="matlab:help robust/rctutil">robust/rctutil</a>                 - (No table of contents file)
+<a href="matlab:help rctobsolete/lmi">rctobsolete/lmi</a>                - (No table of contents file)
+<a href="matlab:help mutools/commands">mutools/commands</a>               - (No table of contents file)
+<a href="matlab:help mutools/subs">mutools/subs</a>                   - Utilities for obsolete MUTOOLS commands.
+<a href="matlab:help imaqblks">imaqblks</a>                       - (No table of contents file)
+<a href="matlab:help imaqblks/imaqmex">imaqblks/imaqmex</a>               - (No table of contents file)
+<a href="matlab:help imaqblks/imaqmasks">imaqblks/imaqmasks</a>             - (No table of contents file)
+<a href="matlab:help foundation/simscape">foundation/simscape</a>            - Simscape
+<a href="matlab:help powerdemo/machines">powerdemo/machines</a>             - (No table of contents file)
+<a href="matlab:help ident">ident</a>                          - System Identification Toolbox
+<a href="matlab:help ident">ident</a>                          - Nonlinear System Identification features. Type "help ident" for more info.
+<a href="matlab:help ident/idobsolete">ident/idobsolete</a>               - (No table of contents file)
+<a href="matlab:help ident/idguis">ident/idguis</a>                   - (No table of contents file)
+<a href="matlab:help ident/idutils">ident/idutils</a>                  - (No table of contents file)
+<a href="matlab:help ident/idrecursive">ident/idrecursive</a>              - (No table of contents file)
+<a href="matlab:help slrequirements">slrequirements</a>                 - Simulink Requirements
+<a href="matlab:help rptgenext">rptgenext</a>                      - Simulink Report Generator
+<a href="matlab:help sldvdemos">sldvdemos</a>                      - (No table of contents file)
+<a href="matlab:help supportsoftware/upgrade">supportsoftware/upgrade</a>        - (No table of contents file)
+<a href="matlab:help powerdemo/simple">powerdemo/simple</a>               - (No table of contents file)
+<a href="matlab:help controllib/requirements">controllib/requirements</a>        - Control Library - Design Requirements.
+<a href="matlab:help matlab/reports">matlab/reports</a>                 - (No table of contents file)
+<a href="matlab:help multibodylib">multibodylib</a>                   - Shared multibody
+<a href="matlab:help aero/astdemos">aero/astdemos</a>                  - (No table of contents file)
+<a href="matlab:help network_engine">network_engine</a>                 - (No table of contents file)
+<a href="matlab:help stats/mlearnapp">stats/mlearnapp</a>                - Statistics and Machine Learning Toolbox
+<a href="matlab:help advisor/m">advisor/m</a>                      - (No table of contents file)
+<a href="matlab:help interfaces/json">interfaces/json</a>                - (No table of contents file)
+<a href="matlab:help aeroblks/hmi">aeroblks/hmi</a>                   - (No table of contents file)
+<a href="matlab:help pedemos">pedemos</a>                        - (No table of contents file)
+<a href="matlab:help dpvu">dpvu</a>                           - (No table of contents file)
+<a href="matlab:help dpvu/metamodel">dpvu/metamodel</a>                 - (No table of contents file)
+<a href="matlab:help dpvu/actions">dpvu/actions</a>                   - (No table of contents file)
+<a href="matlab:help simulink/upgradeadvisor">simulink/upgradeadvisor</a>        - (No table of contents file)
+<a href="matlab:help audio">audio</a>                          - System Toolbox
+<a href="matlab:help audioutilities">audioutilities</a>                 - (No table of contents file)
+<a href="matlab:help audioutilities/audioinit">audioutilities/audioinit</a>       - (No table of contents file)
+<a href="matlab:help audio/compiled">audio/compiled</a>                 - (No table of contents file)
+<a href="matlab:help robotics/ros">robotics/ros</a>                   - ROS (Robot Operating System)
+<a href="matlab:help dsp/scopes">dsp/scopes</a>                     - (No table of contents file)
+<a href="matlab:help coder">coder</a>                          - MATLAB Coder
+<a href="matlab:help performancea">performancea</a>                   - (No table of contents file)
+<a href="matlab:help simulink/slexportprevious">simulink/slexportprevious</a>      - (No table of contents file)
+<a href="matlab:help dsp">dsp</a>                            - System Toolbox
+<a href="matlab:help dsputilities">dsputilities</a>                   - (No table of contents file)
+<a href="matlab:help dsputilities/dspinit">dsputilities/dspinit</a>           - (No table of contents file)
+<a href="matlab:help dsputilities/dspmex">dsputilities/dspmex</a>            - (No table of contents file)
+<a href="matlab:help shared/slvnv">shared/slvnv</a>                   - (No table of contents file)
+<a href="matlab:help realtime">realtime</a>                       - Run Simulink model on target hardware
+<a href="matlab:help shared/can">shared/can</a>                     - (No table of contents file)
+<a href="matlab:help canblks">canblks</a>                        - (No table of contents file)
+<a href="matlab:help canmasks">canmasks</a>                       - (No table of contents file)
+<a href="matlab:help canmex">canmex</a>                         - (No table of contents file)
+<a href="matlab:help drivesdemo">drivesdemo</a>                     - (No table of contents file)
+<a href="matlab:help imaqdemos">imaqdemos</a>                      - Image Acquisition Toolbox.
+<a href="matlab:help psrptgen">psrptgen</a>                       - (No table of contents file)
+<a href="matlab:help smdemos">smdemos</a>                        - (No table of contents file)
+<a href="matlab:help smdemos/cart_double_pendulum">smdemos/cart_double_pendulum</a>   - (No table of contents file)
+<a href="matlab:help smdemos/stewart_platform">smdemos/stewart_platform</a>       - (No table of contents file)
+<a href="matlab:help smdemos/double_crank_aiming">smdemos/double_crank_aiming</a>    - (No table of contents file)
+<a href="matlab:help smdemos/double_wishbone_suspension">smdemos/double_wishbone_suspension</a> - (No table of contents file)
+<a href="matlab:help smdemos/robotic_wrist">smdemos/robotic_wrist</a>          - (No table of contents file)
+<a href="matlab:help smdemos/welding_robot">smdemos/welding_robot</a>          - (No table of contents file)
+<a href="matlab:help smdemos/potters_wheel">smdemos/potters_wheel</a>          - (No table of contents file)
+<a href="matlab:help smdemos/linear_actuator">smdemos/linear_actuator</a>        - (No table of contents file)
+<a href="matlab:help smdemos/pto_shaft">smdemos/pto_shaft</a>              - (No table of contents file)
+<a href="matlab:help smdemos/vehicle_slalom">smdemos/vehicle_slalom</a>         - (No table of contents file)
+<a href="matlab:help smdemos/dump_trailer">smdemos/dump_trailer</a>           - (No table of contents file)
+<a href="matlab:help smdemos/solar_tracker">smdemos/solar_tracker</a>          - (No table of contents file)
+<a href="matlab:help smdemos/suspension_templates">smdemos/suspension_templates</a>   - (No table of contents file)
+<a href="matlab:help smdemos/worm_jack">smdemos/worm_jack</a>              - (No table of contents file)
+<a href="matlab:help sta/sourceBlocks">sta/sourceBlocks</a>               - (No table of contents file)
+<a href="matlab:help simrf/m">simrf/m</a>                        - (No table of contents file)
+<a href="matlab:help sm/m">sm/m</a>                           - (No table of contents file)
+<a href="matlab:help hdlcoderdemos">hdlcoderdemos</a>                  - HDL Coder Examples
+<a href="matlab:help hdlcoderdemos">hdlcoderdemos</a>                  - HDL Coder Demos
+<a href="matlab:help aeroblks">aeroblks</a>                       - Aerospace Blockset
+<a href="matlab:help aeroblksutilities">aeroblksutilities</a>              - (No table of contents file)
+<a href="matlab:help foundation/mech">foundation/mech</a>                - Simscape Multibody 
+<a href="matlab:help toolbox/fixpoint">toolbox/fixpoint</a>               - Fixed-Point Designer
+<a href="matlab:help fixpoint/fpca">fixpoint/fpca</a>                  - (No table of contents file)
+<a href="matlab:help robotics/robotalgs">robotics/robotalgs</a>             - (No table of contents file)
+<a href="matlab:help matlab/toolbox_packaging">matlab/toolbox_packaging</a>       - (No table of contents file)
+<a href="matlab:help nnet/nndemos">nnet/nndemos</a>                   - Neural Network Demonstrations and Applications
+<a href="matlab:help nndemos/nndatasets">nndemos/nndatasets</a>             - Neural Network Datasets
+<a href="matlab:help uicomponents/components">uicomponents/components</a>        - (No table of contents file)
+<a href="matlab:help dsp/examples">dsp/examples</a>                   - (No table of contents file)
+<a href="matlab:help predmaint">predmaint</a>                      - Predictive Maintenance Toolbox 
+<a href="matlab:help predmaintguis">predmaintguis</a>                  - (No table of contents file)
+<a href="matlab:help eda/fpgaautomation">eda/fpgaautomation</a>             - HDL Verifier for Xilinx FPGA design automation
+<a href="matlab:help hdlcoder/hdlslrt">hdlcoder/hdlslrt</a>               - (No table of contents file)
+<a href="matlab:help controllib/graphics">controllib/graphics</a>            - Control Library - Graphics.
+<a href="matlab:help graphics/utils">graphics/utils</a>                 - (No table of contents file)
+<a href="matlab:help graphics/plotoptions">graphics/plotoptions</a>           - (No table of contents file)
+<a href="matlab:help psdistcomp">psdistcomp</a>                     - (No table of contents file)
+<a href="matlab:help coder/xrelexport">coder/xrelexport</a>               - (No table of contents file)
+<a href="matlab:help textanalytics">textanalytics</a>                  - Text Analytics Toolbox
+<a href="matlab:help library/m">library/m</a>                      - (No table of contents file)
+<a href="matlab:help shared/sigbldr">shared/sigbldr</a>                 - (No table of contents file)
+<a href="matlab:help javabuilder">javabuilder</a>                    - (No table of contents file)
+<a href="matlab:help simrf">simrf</a>                          - (No table of contents file)
+<a href="matlab:help simrfV2">simrfV2</a>                        - (No table of contents file)
+<a href="matlab:help simrfV2masks">simrfV2masks</a>                   - (No table of contents file)
+<a href="matlab:help comm/cdma2000">comm/cdma2000</a>                  - The first two lines are intentionally left blank, to avoid participation 
+<a href="matlab:help autoblks/autodemos">autoblks/autodemos</a>             - Powertrain Blockset model examples.
+<a href="matlab:help sh">sh</a>                             - (No table of contents file)
+<a href="matlab:help utilities/init">utilities/init</a>                 - (No table of contents file)
+<a href="matlab:help blks/masks">blks/masks</a>                     - (No table of contents file)
+<a href="matlab:help blks/mex">blks/mex</a>                       - (No table of contents file)
+<a href="matlab:help sl_studio">sl_studio</a>                      - (No table of contents file)
+<a href="matlab:help toolbox/nnet">toolbox/nnet</a>                   - Neural Network Toolbox
+<a href="matlab:help nnet/nncontrol">nnet/nncontrol</a>                 - Neural Network Toolbox Control System Functions.
+<a href="matlab:help nnet/nnadapt">nnet/nnadapt</a>                   - Neural Network Toolbox Adapt Functions.
+<a href="matlab:help nnet/nndatafun">nnet/nndatafun</a>                 - Neural Network Toolbox Data Functions.
+<a href="matlab:help nnet/nnderivative">nnet/nnderivative</a>              - Neural Network Toolbox Calculation Functions.
+<a href="matlab:help nnet/nndistance">nnet/nndistance</a>                - Neural Network Toolbox Distance Functions.
+<a href="matlab:help nnet/nndivision">nnet/nndivision</a>                - Neural Network Toolbox Division Functions.
+<a href="matlab:help nnet/nninitlayer">nnet/nninitlayer</a>               - Neural Network Toolbox Layer Initialization Functions.
+<a href="matlab:help nnet/nninitnetwork">nnet/nninitnetwork</a>             - Neural Network Toolbox Network Initialization Functions.
+<a href="matlab:help nnet/nninitweight">nnet/nninitweight</a>              - Neural Network Toolbox Weight Initialization Functions.
+<a href="matlab:help nnet/nnlearn">nnet/nnlearn</a>                   - Neural Network Toolbox Learning Functions.
+<a href="matlab:help nnetfun">nnetfun</a>                        - Neural Network Toolbox Network Functions.
+<a href="matlab:help nnetinput">nnetinput</a>                      - Neural Network Toolbox Net Input Functions.
+<a href="matlab:help nnetwork">nnetwork</a>                       - Neural Network Toolbox Network Creation Functions.
+<a href="matlab:help nnet/nnperformance">nnet/nnperformance</a>             - Neural Network Toolbox Performance Functions.
+<a href="matlab:help nnet/nnplot">nnet/nnplot</a>                    - Neural Network Toolbox Plot Functions.
+<a href="matlab:help nnet/nnprocess">nnet/nnprocess</a>                 - Neural Network Toolbox Processing Functions.
+<a href="matlab:help nnet/nnsearch">nnet/nnsearch</a>                  - Neural Network Toolbox Line Search Functions.
+<a href="matlab:help nnet/nntopology">nnet/nntopology</a>                - Neural Network Toolbox Topology Functions.
+<a href="matlab:help nnet/nntrain">nnet/nntrain</a>                   - Neural Network Toolbox Training Functions.
+<a href="matlab:help nnet/nntransfer">nnet/nntransfer</a>                - Neural Network Toolbox Transfer Functions.
+<a href="matlab:help nnet/nnweight">nnet/nnweight</a>                  - Neural Network Toolbox Weight Functions.
+<a href="matlab:help nnet/nnguis">nnet/nnguis</a>                    - Neural Network Toolbox GUI Functions.
+<a href="matlab:help nnet/nnobsolete">nnet/nnobsolete</a>                - Neural Network Toolbox Obsolete Functions
+<a href="matlab:help nnet/nnutils">nnet/nnutils</a>                   - Neural Network Toolbox Utility Functions
+<a href="matlab:help advisor/m">advisor/m</a>                      - (No table of contents file)
+<a href="matlab:help distcomp/pctdemos">distcomp/pctdemos</a>              - (No table of contents file)
+<a href="matlab:help simulink_general/main">simulink_general/main</a>          - (No table of contents file)
+<a href="matlab:help shared/diagnostic">shared/diagnostic</a>              - (No table of contents file)
+<a href="matlab:help sysarch">sysarch</a>                        - (No table of contents file)
+<a href="matlab:help simscapedemos">simscapedemos</a>                  - (No table of contents file)
+<a href="matlab:help globaloptimdemos">globaloptimdemos</a>               - Global Optimization Toolbox Demos
+<a href="matlab:help robust/rctdemos">robust/rctdemos</a>                - Robust Control Toolbox -- Demos.
+<a href="matlab:help powersys/powerdemo">powersys/powerdemo</a>             - Simscape Power Systems Examples
+<a href="matlab:help powerdemo/power_utility">powerdemo/power_utility</a>        - (No table of contents file)
+<a href="matlab:help fixedpoint">fixedpoint</a>                     - Fixed-Point Designer
+<a href="matlab:help phaseddemos">phaseddemos</a>                    - (No table of contents file)
+<a href="matlab:help slcheck/iec61508">slcheck/iec61508</a>               - Modeling Style Guide checks for IEC61508
+<a href="matlab:help matlab/audiovideo">matlab/audiovideo</a>              - Audio and Video support.
+<a href="matlab:help toolbox/pde">toolbox/pde</a>                    - Partial Differential Equation Toolbox
+<a href="matlab:help pdedata">pdedata</a>                        - Partial Differential Equation Toolbox Data
+<a href="matlab:help aero">aero</a>                           - space Toolbox
+<a href="matlab:help powerdemo/power_electronics">powerdemo/power_electronics</a>    - (No table of contents file)
+<a href="matlab:help symbolicdemos">symbolicdemos</a>                  - (No table of contents file)
+<a href="matlab:help slrequirementsdemos">slrequirementsdemos</a>            - (No table of contents file)
+<a href="matlab:help slvnv/rmidemos">slvnv/rmidemos</a>                 - (No table of contents file)
+<a href="matlab:help sldv_cc">sldv_cc</a>                        - (No table of contents file)
+<a href="matlab:help matlab/filebrowser">matlab/filebrowser</a>             - (No table of contents file)
+<a href="matlab:help shared/channel">shared/channel</a>                 - (No table of contents file)
+<a href="matlab:help shared/filterdesignlib">shared/filterdesignlib</a>         - (No table of contents file)
+<a href="matlab:help filterdesignlib/filterbuilder">filterdesignlib/filterbuilder</a>  - (No table of contents file)
+<a href="matlab:help instrument">instrument</a>                     - Control Toolbox
+<a href="matlab:help instrumentblks">instrumentblks</a>                 - (No table of contents file)
+<a href="matlab:help instrumentblks/instrumentmex">instrumentblks/instrumentmex</a>   - (No table of contents file)
+<a href="matlab:help instrumentblks/instrumentmasks">instrumentblks/instrumentmasks</a> - (No table of contents file)
+<a href="matlab:help shared/imaqlib">shared/imaqlib</a>                 - Image Acquisition Toolbox Library
+<a href="matlab:help mpcdemos">mpcdemos</a>                       - Model Predictive Control Toolbox -- Demos.
+<a href="matlab:help spcuilib/slscopes">spcuilib/slscopes</a>              - (No table of contents file)
+<a href="matlab:help sps">sps</a>                            - Simscape Power Systems
+<a href="matlab:help hdlfilter/hdlfiltdemos">hdlfilter/hdlfiltdemos</a>         - Filter Design HDL Coder Demos
+<a href="matlab:help datafeed">datafeed</a>                       - Toolbox
+<a href="matlab:help datafeeddemos">datafeeddemos</a>                  - (No table of contents file)
+<a href="matlab:help datafeed/dfgui">datafeed/dfgui</a>                 - Datafeed Toolbox Graphical User Interface
+<a href="matlab:help shared/slcontrollib">shared/slcontrollib</a>            - Simulink Control Design Library
+<a href="matlab:help simrf/examples">simrf/examples</a>                 - (No table of contents file)
+<a href="matlab:help simulink/fixedandfloat">simulink/fixedandfloat</a>         - Fixed-Point Designer utilities.
+<a href="matlab:help fixedandfloat/obsolete">fixedandfloat/obsolete</a>         - (No table of contents file)
+<a href="matlab:help sldo">sldo</a>                           - Simulink Design Optimization 
+<a href="matlab:help sldoguis">sldoguis</a>                       - (No table of contents file)
+<a href="matlab:help sloptim">sloptim</a>                        - (No table of contents file)
+<a href="matlab:help sloptim/sloptguis">sloptim/sloptguis</a>              - (No table of contents file)
+<a href="matlab:help sloptim/sloptobsolete">sloptim/sloptobsolete</a>          - (No table of contents file)
+<a href="matlab:help slestim/slestguis">slestim/slestguis</a>              - (No table of contents file)
+<a href="matlab:help slestim">slestim</a>                        - (No table of contents file)
+<a href="matlab:help slestim/slestmex">slestim/slestmex</a>               - Simulink Design Optimization Estimation S-Function MEX-files.
+<a href="matlab:help slestim/slestutil">slestim/slestutil</a>              - (No table of contents file)
+<a href="matlab:help matlab/timeseries">matlab/timeseries</a>              - Time series data visualization and exploration.
+<a href="matlab:help slcontrol">slcontrol</a>                      - Simulink Control Design 
+<a href="matlab:help slcontrol/slctrlguis">slcontrol/slctrlguis</a>           - (No table of contents file)
+<a href="matlab:help slcontrol/slctrlutil">slcontrol/slctrlutil</a>           - (No table of contents file)
+<a href="matlab:help slcontrol/slctrlobsolete">slcontrol/slctrlobsolete</a>       - (No table of contents file)
+<a href="matlab:help phased">phased</a>                         - Array System Toolbox
+<a href="matlab:help phasedapps">phasedapps</a>                     - (No table of contents file)
+<a href="matlab:help driving">driving</a>                        - Automated Driving System Toolbox
+<a href="matlab:help drivingdata">drivingdata</a>                    - Automated Driving System Toolbox --- sample data
+<a href="matlab:help drivingutilities">drivingutilities</a>               - (No table of contents file)
+<a href="matlab:help imaq">imaq</a>                           - Image Acquisition Toolbox
+<a href="matlab:help powersys/library">powersys/library</a>               - (No table of contents file)
+<a href="matlab:help controllib/estimation">controllib/estimation</a>          - Control Library - Estimation algorithms.
+<a href="matlab:help risk">risk</a>                           - Management Toolbox
+<a href="matlab:help mpc">mpc</a>                            - Model Predictive Control Toolbox
+<a href="matlab:help mpcguis">mpcguis</a>                        - (No table of contents file)
+<a href="matlab:help mpcobsolete">mpcobsolete</a>                    - (No table of contents file)
+<a href="matlab:help mpcutils">mpcutils</a>                       - (No table of contents file)
+<a href="matlab:help simrf_top">simrf_top</a>                      - (No table of contents file)
+<a href="matlab:help ltehdl">ltehdl</a>                         - LTE HDL Toolbox
+<a href="matlab:help ltehdlutilities">ltehdlutilities</a>                - (No table of contents file)
+<a href="matlab:help finance/calendar">finance/calendar</a>               - Financial Toolbox calendar functions.
+<a href="matlab:help finance">finance</a>                        - Financial Toolbox
+<a href="matlab:help finance/finsupport">finance/finsupport</a>             - (No table of contents file)
+<a href="matlab:help finance/ftseries">finance/ftseries</a>               - Financial Toolbox Times Series Functions.
+<a href="matlab:help asam/mdf">asam/mdf</a>                       - (No table of contents file)
+<a href="matlab:help pslink">pslink</a>                         - Polyspace plug-in for Simulink. 
+<a href="matlab:help coder/codegendemos">coder/codegendemos</a>             - (No table of contents file)
+<a href="matlab:help mli/m">mli/m</a>                          - (No table of contents file)
+<a href="matlab:help simulink/sl_async_streaming">simulink/sl_async_streaming</a>    - (No table of contents file)
+<a href="matlab:help shared/rflib">shared/rflib</a>                   - (No table of contents file)
+<a href="matlab:help shared/statslib">shared/statslib</a>                - Statistics and Machine Learning Toolbox Library
+<a href="matlab:help coder/float2fixed">coder/float2fixed</a>              - (No table of contents file)
+<a href="matlab:help float2fixed/demos">float2fixed/demos</a>              - (No table of contents file)
+<a href="matlab:help float2fixed/mathlib">float2fixed/mathlib</a>            - (No table of contents file)
+<a href="matlab:help images/imdemos">images/imdemos</a>                 - Image Processing Toolbox --- demos
+<a href="matlab:help advisor/m">advisor/m</a>                      - (No table of contents file)
+<a href="matlab:help DRdemo">DRdemo</a>                         - (No table of contents file)
+<a href="matlab:help sldrtexamples">sldrtexamples</a>                  - (No table of contents file)
+<a href="matlab:help finance/findemos">finance/findemos</a>               - Financial Toolbox Examples
+<a href="matlab:help shared">shared</a>                         - HDL Library
+<a href="matlab:help hdllib/ml_lib">hdllib/ml_lib</a>                  - (No table of contents file)
+<a href="matlab:help signal/sigdemos">signal/sigdemos</a>                - (No table of contents file)
+<a href="matlab:help sldodemos">sldodemos</a>                      - Simulink Design Optimization Demos.
+<a href="matlab:help sldodemos/optim">sldodemos/optim</a>                - (No table of contents file)
+<a href="matlab:help sldodemos/estim">sldodemos/estim</a>                - (No table of contents file)
+<a href="matlab:help blocks/sb2sl">blocks/sb2sl</a>                   - (No table of contents file)
+<a href="matlab:help mechdemos">mechdemos</a>                      - SimMechanics Demos.
+<a href="matlab:help robotics">robotics</a>                       - System Toolbox
+<a href="matlab:help slcheck/mametrics">slcheck/mametrics</a>              - (No table of contents file)
+<a href="matlab:help images/colorspaces">images/colorspaces</a>             - Image Processing Toolbox --- colorspaces
+<a href="matlab:help images">images</a>                         - Image Processing Toolbox
+<a href="matlab:help images/imdata">images/imdata</a>                  - Image Processing Toolbox --- sample images
+<a href="matlab:help images/imuitools">images/imuitools</a>               - Image Processing Toolbox --- imuitools
+<a href="matlab:help images/iptformats">images/iptformats</a>              - Image Processing Toolbox --- File Formats
+<a href="matlab:help images/iptutils">images/iptutils</a>                - Image Processing Toolbox --- utilities
+<a href="matlab:help trackinglib">trackinglib</a>                    - Tracking Filters
+<a href="matlab:help connector2/connector">connector2/connector</a>           - connector  Enable or disable the MATLAB Connector. The MATLAB Connector allows you to access a MATLAB session on a desktop from a mobile device using MATLAB Mobile.
+
+plot(x,sin(x));
+axis([-1,1])
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('axis>LocSetLimits', '/Applications/MATLAB_R2018a.app/toolbox/matlab/graph2d/axis.p', 312)" style="font-weight:bold">axis>LocSetLimits</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2018a.app/toolbox/matlab/graph2d/axis.p',312,0)">line 312</a>)
+Vector must have 4, 6, or 8 elements.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('axis', '/Applications/MATLAB_R2018a.app/toolbox/matlab/graph2d/axis.p', 105)" style="font-weight:bold">axis</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2018a.app/toolbox/matlab/graph2d/axis.p',105,0)">line 105</a>)
+                LocSetLimits(ax(j),cur_arg,names);
+} 
+axis([-1,1,-1.5,1.5])
+x = linspace(-1,1,100)
+
+x =
+
+  Columns 1 through 9
+
+   -1.0000   -0.9798   -0.9596   -0.9394   -0.9192   -0.8990   -0.8788   -0.8586   -0.8384
+
+  Columns 10 through 18
+
+   -0.8182   -0.7980   -0.7778   -0.7576   -0.7374   -0.7172   -0.6970   -0.6768   -0.6566
+
+  Columns 19 through 27
+
+   -0.6364   -0.6162   -0.5960   -0.5758   -0.5556   -0.5354   -0.5152   -0.4949   -0.4747
+
+  Columns 28 through 36
+
+   -0.4545   -0.4343   -0.4141   -0.3939   -0.3737   -0.3535   -0.3333   -0.3131   -0.2929
+
+  Columns 37 through 45
+
+   -0.2727   -0.2525   -0.2323   -0.2121   -0.1919   -0.1717   -0.1515   -0.1313   -0.1111
+
+  Columns 46 through 54
+
+   -0.0909   -0.0707   -0.0505   -0.0303   -0.0101    0.0101    0.0303    0.0505    0.0707
+
+  Columns 55 through 63
+
+    0.0909    0.1111    0.1313    0.1515    0.1717    0.1919    0.2121    0.2323    0.2525
+
+  Columns 64 through 72
+
+    0.2727    0.2929    0.3131    0.3333    0.3535    0.3737    0.3939    0.4141    0.4343
+
+  Columns 73 through 81
+
+    0.4545    0.4747    0.4949    0.5152    0.5354    0.5556    0.5758    0.5960    0.6162
+
+  Columns 82 through 90
+
+    0.6364    0.6566    0.6768    0.6970    0.7172    0.7374    0.7576    0.7778    0.7980
+
+  Columns 91 through 99
+
+    0.8182    0.8384    0.8586    0.8788    0.8990    0.9192    0.9394    0.9596    0.9798
+
+  Column 100
+
+    1.0000
+
+x = linspace(-1,1,100);
+plot (x,sin(x));
+xlabel('x')
+diary on
+s = 5
+
+s =
+
+     5
+
+diary off
